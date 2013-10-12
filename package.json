@@ -1,0 +1,25 @@
+{
+  "name": "HTML-Template-Beautifier",
+  "version": "0.0.1",
+  "description": "A wrapper for js-beautify to make it aware of Django template tags",
+  "main": "./index.js",
+  "bin": {
+    "html-beautify": "./js/bin/html-beautify.js"
+  },
+  "bugs": "https://github.com/bennettaur/HTML-Template-Beautifier/issues",
+  "homepage": "https://github.com/bennettaur/HTML-Template-Beautifier",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bennettaur/HTML-Template-Beautifier.git"
+  },
+  "keywords": [
+    "beautify",
+    "django templates",
+    "code-quality"
+  ],
+  "author": "Michael Bennett <bennettaur@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "js-beautify": "~1.4.1"
+  }
+}
